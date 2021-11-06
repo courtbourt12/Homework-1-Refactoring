@@ -1,12 +1,17 @@
+/* Universal styling for the entire page. */
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
+/*  Background color for the non-header portion of the page */
 
 body {
     background-color: #d9dcd6;
 }
+
+/* Styling for the header */
 
 .header {
     padding: 20px;
@@ -20,7 +25,7 @@ body {
     font-size: 48px;
 }
 
-.header h1 .seo {
+.seo {
     color: #d9dcd6;
 }
 
@@ -32,11 +37,8 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+.header div ul li{
     list-style-type: none;
-}
-
-.header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -45,6 +47,7 @@ a {
     color: #ffffff;
     text-decoration: none;
 }
+
 
 p {
     font-size: 16px;
@@ -58,6 +61,8 @@ p {
     background-size: cover;
     background-position: center;
 }
+
+/* Styling for the content section of the page */
 
 .float-left {
     float: left;
@@ -74,6 +79,8 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
+
+/* Styling for the benefits section of the page. */
 
 .benefits {
     margin-right: 20px;
@@ -134,6 +141,8 @@ p {
     max-width: 150px;
 }
 
+/* Styling for the content section of the page. */
+
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -187,6 +196,8 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
+/* Styling for the footer section of the page. */
 
 .footer {
     padding: 30px;
